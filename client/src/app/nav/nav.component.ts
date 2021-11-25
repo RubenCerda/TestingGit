@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
 import { Observable } from 'rxjs';
 import { subscribeOn } from 'rxjs/operators';
-import { User } from '../_modules/user';
+import { User } from '../_models/user';
 import { AccountService } from '../_services/account.service';
 
 @Component({
